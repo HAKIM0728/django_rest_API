@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MOVIES</title>
+    </head>
+    <body>
+
+    
+<h1>NAME OF FRIENDS</h1>
+<ul>
+{% for movie in movies %}
+    <li>{{movie.NAME}}</li>
+{% endfor %}
+</ul>
+
+<h1>BIRTH YEAR</h1>
+<ul>
+{% for movie in movies %}
+    <li>{{movie.YOB}}</li>
+{% endfor %}
+
+</ul>
+</body>
+
+</html>
